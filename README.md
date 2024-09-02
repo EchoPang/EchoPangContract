@@ -5,6 +5,10 @@
 ## 사전 준비
 프로젝트를 실행하기 전에, 필수적인 의존성을 설치하고 `.env` 파일을 설정하세요. `.env` 파일에는 Infura API 키와 Sepolia 네트워크에서 사용할 개인 키를 설정해야 합니다.
 
+```bash
+npm install
+```
+
 ```plaintext
 INFURA_API_KEY=your_infura_api_key_here
 SEPOLIA_PRIVATE_KEY=your_sepolia_private_key_here
